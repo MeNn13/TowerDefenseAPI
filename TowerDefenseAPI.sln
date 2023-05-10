@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TowerDefenseAPI", "TowerDefenseAPI\TowerDefenseAPI.csproj", "{AA170E4F-ECAF-4E1E-99C1-5F5AA8019513}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6BD97305-4A0E-48CA-AC25-C1A5CB79BDFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TowerDefenseAPI.Domain", "TowerDefenseAPI.Domain\TowerDefenseAPI.Domain.csproj", "{6FA5F03A-3E27-47D9-924E-9E100721828B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{37546FBF-3453-4429-BF33-B8DA828138F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TowerDefenseAPI.Data", "TowerDefenseAPI.Data\TowerDefenseAPI.Data.csproj", "{C618ECEE-A0E7-45F3-B891-10F677E56016}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC9FCE39-4106-4977-BA71-15A6F805AFDA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{597ED71A-5D89-452D-91ED-B6B7F2AECA29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerDefenseAPI.Service", "TowerDefenseAPI.Service\TowerDefenseAPI.Service.csproj", "{BFC2F599-72E3-4FA8-B379-D4872B418063}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA170E4F-ECAF-4E1E-99C1-5F5AA8019513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA170E4F-ECAF-4E1E-99C1-5F5AA8019513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA170E4F-ECAF-4E1E-99C1-5F5AA8019513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA170E4F-ECAF-4E1E-99C1-5F5AA8019513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA5F03A-3E27-47D9-924E-9E100721828B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA5F03A-3E27-47D9-924E-9E100721828B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA5F03A-3E27-47D9-924E-9E100721828B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA5F03A-3E27-47D9-924E-9E100721828B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C618ECEE-A0E7-45F3-B891-10F677E56016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C618ECEE-A0E7-45F3-B891-10F677E56016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C618ECEE-A0E7-45F3-B891-10F677E56016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C618ECEE-A0E7-45F3-B891-10F677E56016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC2F599-72E3-4FA8-B379-D4872B418063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC2F599-72E3-4FA8-B379-D4872B418063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC2F599-72E3-4FA8-B379-D4872B418063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC2F599-72E3-4FA8-B379-D4872B418063}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FA5F03A-3E27-47D9-924E-9E100721828B} = {6BD97305-4A0E-48CA-AC25-C1A5CB79BDFD}
+		{C618ECEE-A0E7-45F3-B891-10F677E56016} = {37546FBF-3453-4429-BF33-B8DA828138F2}
+		{BFC2F599-72E3-4FA8-B379-D4872B418063} = {597ED71A-5D89-452D-91ED-B6B7F2AECA29}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3851AF34-C8FC-4A83-9AF9-32131BA0CF39}
+	EndGlobalSection
+EndGlobal
